@@ -18,21 +18,22 @@ section {
 
 #title {
   text-align: left;
-  max-width: 35%;
+  max-width: 30%;
   padding: 2px 0 30px 10px;
   margin: 10px 0;
   color: rgb(255, 255, 255);
   display: inline-block;
 }
 img {
-  width: 100px;
-  padding: 10px 10px 0 25px;
+  width: 150px;
+  padding: 05px 0 0 px;
   display: inline-block;
 }
 
 #btn-translate {
   background-color: rgb(1, 112, 1);
   padding: 5px 15px;
+  font-size: 1.3rem;
   color: white;
   border-radius: 20px;
   border-color: rgb(245, 245, 245);
@@ -41,6 +42,7 @@ img {
 #btn-clear {
   padding: 5px 15px;
   margin: 0 15px;
+  font-size: 1.3rem;
   color: rgb(1, 112, 1);
   border-radius: 20px;
   border-color: rgb(245, 245, 245);
@@ -49,17 +51,19 @@ img {
 textarea {
   margin: 1rem;
   padding: 1rem;
-  width: 50%;
+  font-size: 1.2rem;
+  width: 40%;
   height: 10vh;
   border: rgb(1, 112, 1) solid;
 }
 
 div {
   margin: auto;
-  width: 50%;
+  width: 40%;
   height: 10vh;
+  font-size: 1.2rem;
   padding: 1rem;
-  color: rgb(1, 112, 1);
+  color: rgb(255, 255, 255);
   border: rgb(1, 112, 1) dashed;
 }
 footer {
@@ -73,8 +77,7 @@ footer {
 @media screen and (max-width: 800px) {
   #title {
     max-width: 45%;
-    font-size: 1rem;
-    padding: 2px 0 10px 0px;
+    padding: 10px 0px;
   }
   textarea {
     width: 80%;
