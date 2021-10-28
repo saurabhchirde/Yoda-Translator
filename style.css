@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap");
+
+html {
+  padding: 0;
+  margin: 0;
+  font-family: "Henny Penny", cursive;
+  background-color: #000000;
+  letter-spacing: 0.1rem;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+section {
+  text-align: center;
+}
+
+#title {
+  text-align: left;
+  max-width: 35%;
+  padding: 2px 0 30px 10px;
+  margin: 10px 0;
+  color: rgb(255, 255, 255);
+  display: inline-block;
+}
+img {
+  width: 100px;
+  padding: 10px 10px 0 25px;
+  display: inline-block;
+}
+
+#btn-translate {
+  background-color: rgb(1, 112, 1);
+  padding: 5px 15px;
+  color: white;
+  border-radius: 20px;
+  border-color: rgb(245, 245, 245);
+}
+
+#btn-clear {
+  padding: 5px 15px;
+  margin: 0 15px;
+  color: rgb(1, 112, 1);
+  border-radius: 20px;
+  border-color: rgb(245, 245, 245);
+}
+
+textarea {
+  margin: 1rem;
+  padding: 1rem;
+  width: 50%;
+  height: 10vh;
+  border: rgb(1, 112, 1) solid;
+}
+
+div {
+  margin: auto;
+  width: 50%;
+  height: 10vh;
+  padding: 1rem;
+  color: rgb(1, 112, 1);
+  border: rgb(1, 112, 1) dashed;
+}
+
+@media screen and (max-width: 800px) {
+  #title {
+    max-width: 45%;
+    font-size: 1rem;
+    padding: 2px 0 10px 0px;
+  }
+  textarea {
+    width: 80%;
+  }
+  div {
+    width: 80%;
+  }
+}
