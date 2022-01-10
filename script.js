@@ -5,16 +5,16 @@ const divOut = document.querySelector("#output");
 
 const serverURL = "https://api.funtranslations.com/translate/yoda.json";
 
-function makeURLcomplete(text) {
+const makeURLcomplete = (text) => {
   return serverURL + "?" + "text=" + text;
-}
+};
 
-function errorHandler(error) {
+const errorHandler = (error) => {
   console.log("Error occured ", error);
   alert("Server is not rechable :( try again later");
-}
+};
 
-btnTranslate.addEventListener("click", function () {
+btnTranslate.addEventListener("click", () => {
   const txt = txtInput.value;
 
   fetch(makeURLcomplete(txt))
@@ -26,7 +26,7 @@ btnTranslate.addEventListener("click", function () {
     .catch(errorHandler);
 });
 
-btnClear.addEventListener("click", function () {
+btnClear.addEventListener("click", () => {
   txtInput.value = "";
   divOut.innerText = "";
 });
